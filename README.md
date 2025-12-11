@@ -12,6 +12,8 @@ Coffee Clicker is an incremental clicker-style game where the player’s goal is
 
 Coffee Clicker demonstrates concepts of object-oriented programming, configuration-driven system behavior, and real-time resource simulation. The result is a customizable and extensible incremental game framework that can be expanded with new mechanics, generators, or progression systems.
 
+> ⚠️ **Important:** The project was first developed as a final assignment for an OOP course at LaSalle BCN and it was developed in **Catalan**. I am working on translating all the documentation so that it is also avaliable in **English**, but it may take some time! In the meantime, if you are courious about anything related to the project you can contact me through my [email](mailto:polmonne@gmail.com) or [linkedin](https://linkedin.com/in/polmonneparera).
+
 
 ## 🗂️ Table of Contents
 
