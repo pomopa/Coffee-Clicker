@@ -1,49 +1,52 @@
-# Projecte Coffee Clicker 3
+# ☕️ Coffee Clicker 
 
-## Grup: dpoo_s2_project_c_coffee-clicker-3
+## 👥 Authors
+- [Pol Monné](https://github.com/pomopa)  
+- [Marina Miranda](https://github.com/MarinaMiranda7)  
+- [David Susagna](https://github.com/DavidSusagna)
+- [Daniel Soler](https://github.com/dasolerfo/)
+- [Ricard Morales]()
 
-### Integrants:
-- Marina Miranda Riaza: marina.miranda@students.salle.url.edu
-- Pol Monné Parera: pol.monne@students.salle.url.edu
-- Ricard Morales Prat: ricard.morales@students.salle.url.edu
-- Daniel Soler Fontanet: daniel.soler@students.salle.url.edu
-- David Susagna Holgado: david.susagna@students.salle.url.edu
+## 🧠 Project Description
+Coffee Clicker is an incremental clicker-style game where the player’s goal is to produce as much coffee as possible through clicks, automated generators, and strategic upgrades. The project is designed to simulate a full game loop, including resource accumulation, generator management, and empowerer-based enhancements that improve efficiency and progression over time.
+
+Coffee Clicker demonstrates concepts of object-oriented programming, configuration-driven system behavior, and real-time resource simulation. The result is a customizable and extensible incremental game framework that can be expanded with new mechanics, generators, or progression systems.
 
 
-# Índex
+## 🗂️ Table of Contents
 
-1. [Descàrrega i Instal·lació](#des)
-2. [Requisits](#requisits)
-3. [Configuració de la Base de Dades](#configuració-de-la-base-de-dades)
-   - [DatabaseInicialScript.sql](#newgame_configjson)
-4. [Configuració Inicial del Joc](#configuració-inicial-del-joc)
+1. [Download & Installation](#1-download--installation)
+2. [Requirements](#2--requirements)
+3. [Database Configuration](#3--database-configuration)
+   - [DatabaseInicialScript.sql](#databaseinicialscriptsql)
+4. [Initial Game Configuration](#4--initial-game-configuration)
    - [newGame_Config.json](#newgame_configjson)
    - [generador_Config.json](#generador_configjson)
    - [empowerer_Config.json](#empowerer_configjson)
 
 
-### 1. Descarga e Instalación:
+### 1. Download & Installation
 ```bash
-git clone https://bitbucket22.salle.url.edu:7943/scm/dpoo23/dpoo_s2_project_c_coffee-clicker-3.git
+git clone https://github.com/pomopa/Coffee-Clicker.git
 ```
-## 2. Requisits:
+## 2. 📋 Requirements:
 
-Es requereixen les següents biblioteques:
+The project requires the following libraries:
   - mysql-connector-j-8.3.0.jar
   - gson.jar per llegir documents JSON.
 
-Assegura't de tenir aquestes biblioteques abans d'executar el projecte.
+Make sure to have the libraries installed before running the project.
 
-## 3. Configuració base de dades
+## 3. 📊 Database Configuration
 
-Per configurar la connexió de l'aplicació a la base de dades, segueix aquests passos:
+To configure the database connection, follow these steps:
 
-  1. Obre el fitxer de configuració config.json.
+  1. Open the configuration file config.json.
       ```config/database_config.json```
 
-  2. Dins d'aquest fitxer, trobaràs una secció amb el nom "mysql" que conté la configuració per a la base de dades MySQL.
+  2. In this file you will find a section with the name "mysql" which contains the configuration for the MySql database.
 
-  3. Modifica els següents camps segons la configuració de la teva base de dades:
+  3. Modify the following fields according to your database configuration:
    ```json
       {
          "mysql": {
@@ -54,37 +57,31 @@ Per configurar la connexió de l'aplicació a la base de dades, segueix aquests 
             "database": "database"
          }
       }
-```
-     1. "**host**": Especifica la direcció del servidor de la base de dades.
-     2. "**port**": Indica el número de port en el qual el servidor de la base de dades està escoltant les connexions.
-     3. "**user**": Proporciona el nom d'usuari per autenticar-se a la base de dades.
-     4. "**password**": Introdueix la contrasenya associada al nom d'usuari per autenticar la connexió.
-     5. "**database**": Especifica el nom de la base de dades a la qual l'aplicació es connectarà.
+   ```
+   - "**host**": Specifies the location of the database server.
+   - "**port**": Corresponds to the port number in which the server is listening to connections.
+   - "**user**": Specifies the username to autenticate in the database.
+   - *password**": Insert the password associated with the username to authenticate the connection.
+   - "**database**": Specify the name of the database to which the program will be connected.
 
-4. Desa els canvis en el fitxer config.json.
+4. Save the changes to the file config.json.
 
-5. Configura la base de dades amb MySql
+5. Configure the database with MySql
 
-Per últim, és important importar el document de configuració de la base de dades, el qual es troba a la ruta que es mostra a continuació.
+Finally, it's important to import the database configuration document, which can be found in the following route.
 
 ```
 config/DatabaseInicialScript.sql
 ```
-Aquest document .sql està basat en MySQL. A continuació, trobaràs un enllaç per descarregar i instal·lar MySQL.
-Es recomana fer ús del MySQL Workbench per iniciar la base de dades en el servidor local amb el script proporcionat anteriorment.
+This document .sql is based on MySQL. Down below you will find a link to download and install mySQL. It is recomended to make use of MySQL Workbench to log into the database local server with the previously provided script.
 
-Enllaç d'instal·lació de MySql server i MySQL Workbench: [MySQL Community Downloads](https://dev.mysql.com/downloads/installer/)
+Installation link for MySQL server and MySQL Workbench: [MySQL Community Downloads](https://dev.mysql.com/downloads/installer/)
 
-Un cop executat l'script SQL dins el servidor corresponent al document de configuració de la base de dades, es pot iniciar l'execució.
+Once the SQL script has been executed inside the server corresponding to the configuration document of the database, program execution can be started.
 
-D'altra banda, cal destacar que amb la configuració per defecte, tot aquest procediment es pot obviar ja que el servidor de bases de dades actual està disponible en línia.
+## 4. 👾 Initial Game Configuration
 
-
-
-## 4. Configuració inicial d'una partida
-
-A continuació, es detalla la configuració inicial del joc que es compon de tres documents JSON: newGame_Config.json, generador_Config.json i empowerer_Config.json.
-
+Below is the initial game configuration, which is composed of three JSON documents: newGame_Config.json, generador_Config.json, and empowerer_Config.json. A base configuration is provided, and if you don't wish to change anything you may not touch these files.
 ```
   config/generador_Config.json
   config/newGame_Config.json
@@ -93,7 +90,7 @@ A continuació, es detalla la configuració inicial del joc que es compon de tre
 
 ### 4.1 newGame_Config.json
 
-Aquest fitxer conté la configuració inicial per a una nova partida. Els paràmetres s'han de modificar segons les necessitats de cada partida. El format és el següent:
+This file contains the initial configuration for a new game. The parameters must be modified according to the needs of each game. The format is as follows:
 
 ```json
 {
@@ -103,14 +100,14 @@ Aquest fitxer conté la configuració inicial per a una nova partida. Els paràm
   "timeOnGame": 0
 }
 ```
-- **ongoingGame:** Indica si la partida està en curs (true) o no (false).
-- **resource:** Especifica el recurs inicial disponible per al jugador.
-- **numResources:** Indica la quantitat inicial del recurs.
-- **timeOnGame:** Temps total transcorregut en la partida.
+- **ongoingGame:** Indicates whether the game is in progress (true) or not (false).
+- **resource:** Specifies the initial resource available to the player.
+- **numResources:** Indicates the initial amount of the resource.
+- **timeOnGame:** Total time elapsed in the game.
 
 ### 4.2 generador_Config.json
 
-Aquest fitxer conté la configuració inicial per als diferents tipus de generadors disponibles al joc. Es recomana modificar els paràmetres segons les característiques desitjades per a cada generador. El format de cadascun és el següent:
+This file contains the initial configuration for the different types of generators available in the game. It is recommended to modify the parameters according to the desired characteristics of each generator. Each one follows the following format:
 
 ```json
 {
@@ -124,19 +121,19 @@ Aquest fitxer conté la configuració inicial per als diferents tipus de generad
 }
 ```
 
-- **generatorsType:** Tipus de generador.
-- **baseCost:** Cost base per adquirir el generador.
-- **incremental:** Increment de producció proporcionat pel generador.
-- **production:** Producció inicial del generador.
-- **image:** Ruta de la imatge que representa el generador.
-- **increaseProduction:** Aquest camp representa un valor multiplicador entre 0 i 1 que pot augmentar la producció del generador.
-- **reduceBaseCost:** Aquest camp representa un valor multiplicador entre 0 i 1 que pot reduir el cost del generador.
+- **generatorsType:** Type of generator.
+- **baseCost:** Base cost to acquire the generator.
+- **incremental:** Production increase provided by the generator.
+- **production:** Initial production of the generator.
+- **image:** Path of the image that represents the generator.
+- **increaseProduction:** This field represents a multiplier value between 0 and 1 that can increase the generator’s production.
+- **reduceBaseCost:** This field represents a multiplier value between 0 and 1 that can reduce the generator’s cost.
 
-S'han de modificar els valors de cada camp segons les especificacions del joc i les preferències de configuració de cada partida.
+The values of each field must be modified according to the game's specifications and the preferred configuration for each game.
 
 ### 4.3 empowerer_Config.json
 
-Aquest fitxer conté la configuració inicial per als diferents tipus de potenciadors disponibles al joc. Es recomana modificar els paràmetres segons les característiques desitjades per a cada potenciador. El format de cadascun és el següent:
+This file contains the initial configuration for the different types of empowerers available in the game. It is recommended to modify the parameters according to the desired characteristics for each empowerer. Each one follows the following format:
 
 ```json
 {
@@ -147,13 +144,9 @@ Aquest fitxer conté la configuració inicial per als diferents tipus de potenci
 }
 ```
 
-- **type:** Nom del potenciador.
-- **baseCost:** Representa el cost base del empoderador.
-- **incremental:** Representa el percentatge que incrementa el preu de l'empoderador. Aquest valor ha d'estar entre 0 i 1.
-- **bonus:** Representa el valor entre 0 i 1 que beneficia en el seu camp al generador.
-
-S'han de modificar els valors de cada camp segons les especificacions del joc i les preferències de configuració de cada partida.
-
-
-
-
+- **type:** Name of the empowerer.
+- **baseCost:** Represents the base cost of the empowerer.
+- **incremental:** Represents the percentage that increases the price of the empowerer. This value must be between 0 and 1.
+- **bonus:** Represents the value between 0 and 1 that benefits the generator in its corresponding field.
+- 
+The values of each field must be modified according to the game's specifications and the preferred configuration for each game.
