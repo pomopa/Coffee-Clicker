@@ -1,0 +1,407 @@
+[
+  {
+    "type": "ClickIncrease",
+    "affects": "click",
+    "name": "Increment clicker 1",
+    "cost": 100,
+    "bonus": 2.0,
+    "threshold": 50,
+    "image": "resources/click.png"
+  },
+  {
+    "type": "ClickIncrease",
+    "affects": "click",
+    "name": "Increment clicker 2",
+    "cost": 500,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/click.png"
+  },
+  {
+    "type": "ClickIncrease",
+    "affects": "click",
+    "name": "Increment clicker 3",
+    "cost": 1000,
+    "bonus": 2.0,
+    "threshold": 1000,
+    "image": "resources/click.png"
+  },
+  {
+    "type": "ClickIncrease",
+    "affects": "click",
+    "name": "Increment clicker 4",
+    "cost": 5000,
+    "bonus": 2.0,
+    "threshold": 50000,
+    "image": "resources/click.png"
+  },
+  {
+    "type": "ClickIncrease",
+    "affects": "click",
+    "name": "Increment clicker 5",
+    "cost": 10000,
+    "bonus": 2.0,
+    "threshold": 500000,
+    "image": "resources/click.png"
+  },
+  {
+    "type": "BaristaIncrease",
+    "affects": "Barista",
+    "name": "Increment barista 1",
+    "cost": 250,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/barista.png"
+  },
+  {
+    "type": "BaristaIncrease",
+    "affects": "Barista",
+    "name": "Increment barista 2",
+    "cost": 2000,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/barista.png"
+  },
+  {
+    "type": "BaristaIncrease",
+    "affects": "Barista",
+    "name": "Increment barista 3",
+    "cost": 6000,
+    "bonus": 2.0,
+    "threshold": 1000,
+    "image": "resources/barista.png"
+  },
+  {
+    "type": "BaristaIncrease",
+    "affects": "Barista",
+    "name": "Increment barista 4",
+    "cost": 10000,
+    "bonus": 2.0,
+    "threshold": 50000,
+    "image": "resources/barista.png"
+  },
+  {
+    "type": "BaristaIncrease",
+    "affects": "Barista",
+    "name": "Increment barista 5",
+    "cost": 15000,
+    "bonus": 2.0,
+    "threshold": 500000,
+    "image": "resources/barista.png"
+  },
+  {
+    "type": "WaterfallIncrease",
+    "affects": "Cascada de cafè",
+    "name": "Increment cascada 1",
+    "cost": 500,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/cascade.jpg"
+  },
+  {
+    "type": "WaterfallIncrease",
+    "affects": "Cascada de cafè",
+    "name": "Increment cascada 2",
+    "cost": 2500,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/cascade.jpg"
+  },
+  {
+    "type": "WaterfallIncrease",
+    "affects": "Cascada de cafè",
+    "name": "Increment cascada 3",
+    "cost": 7000,
+    "bonus": 2.0,
+    "threshold": 1000,
+    "image": "resources/cascade.jpg"
+  },
+  {
+    "type": "WaterfallIncrease",
+    "affects": "Cascada de cafè",
+    "name": "Increment cascada 4",
+    "cost": 15000,
+    "bonus": 2.0,
+    "threshold": 50000,
+    "image": "resources/cascade.jpg"
+  },
+  {
+    "type": "WaterfallIncrease",
+    "affects": "Cascada de cafè",
+    "name": "Increment cascada 5",
+    "cost": 20000,
+    "bonus": 2.0,
+    "threshold": 500000,
+    "image": "resources/cascade.jpg"
+  },
+  {
+    "type": "CafeteraIncrease",
+    "affects": "Cafetera",
+    "name": "Increment cafetera 1",
+    "cost": 3000,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/coffeemachine.png"
+  },
+  {
+    "type": "CafeteraIncrease",
+    "affects": "Cafetera",
+    "name": "Increment cafetera 2",
+    "cost": 9000,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/coffeemachine.png"
+  },
+  {
+    "type": "CafeteraIncrease",
+    "affects": "Cafetera",
+    "name": "Increment cafetera 3",
+    "cost": 15000,
+    "bonus": 2.0,
+    "threshold": 1000,
+    "image": "resources/coffeemachine.png"
+  },
+  {
+    "type": "CafeteraIncrease",
+    "affects": "Cafetera",
+    "name": "Increment cafetera 4",
+    "cost": 21000,
+    "bonus": 2.0,
+    "threshold": 50000,
+    "image": "resources/coffeemachine.png"
+  },
+  {
+    "type": "CafeteraIncrease",
+    "affects": "Cafetera",
+    "name": "Increment cafetera 5",
+    "cost": 23000,
+    "bonus": 2.0,
+    "threshold": 500000,
+    "image": "resources/coffeemachine.png"
+  },
+  {
+    "type": "ClooneyIncrease",
+    "affects": "George Clooney",
+    "name": "Increment Clooney 1",
+    "cost": 30000,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/george-clooney.jpg"
+  },
+  {
+    "type": "ClooneyIncrease",
+    "affects": "George Clooney",
+    "name": "Increment Clooney 2",
+    "cost": 40000,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/george-clooney.jpg"
+  },
+  {
+    "type": "ClooneyIncrease",
+    "affects": "George Clooney",
+    "name": "Increment Clooney 3",
+    "cost": 50000,
+    "bonus": 2.0,
+    "threshold": 1000,
+    "image": "resources/george-clooney.jpg"
+  },
+  {
+    "type": "ClooneyIncrease",
+    "affects": "George Clooney",
+    "name": "Increment Clooney 4",
+    "cost": 60000,
+    "bonus": 2.0,
+    "threshold": 50000,
+    "image": "resources/george-clooney.jpg"
+  },
+  {
+    "type": "ClooneyIncrease",
+    "affects": "George Clooney",
+    "name": "Increment Clooney 5",
+    "cost": 700000,
+    "bonus": 2.0,
+    "threshold": 500000,
+    "image": "resources/george-clooney.jpg"
+  },
+  {
+    "type": "FarmIncrease",
+    "affects": "Granja",
+    "name": "Increment granja 1",
+    "cost": 250000,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/farmer.png"
+  },
+  {
+    "type": "FarmIncrease",
+    "affects": "Granja",
+    "name": "Increment granja 2",
+    "cost": 500000,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/farmer.png"
+  },
+  {
+    "type": "FarmIncrease",
+    "affects": "Granja",
+    "name": "Increment granja 3",
+    "cost": 750000,
+    "bonus": 2.0,
+    "threshold": 1000,
+    "image": "resources/farmer.png"
+  },
+  {
+    "type": "FarmIncrease",
+    "affects": "Granja",
+    "name": "Increment granja 4",
+    "cost": 1000000,
+    "bonus": 2.0,
+    "threshold": 50000,
+    "image": "resources/farmer.png"
+  },
+  {
+    "type": "FarmIncrease",
+    "affects": "Granja",
+    "name": "Increment granja 5",
+    "cost": 1500000,
+    "bonus": 2.0,
+    "threshold": 500000,
+    "image": "resources/farmer.png"
+  },
+  {
+    "type": "FactoryIncrease",
+    "affects": "Fabrica",
+    "name": "Increment fabrica 1",
+    "cost": 1000000,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/factory.png"
+  },
+  {
+    "type": "FactoryIncrease",
+    "affects": "Fabrica",
+    "name": "Increment fabrica 2",
+    "cost": 150000,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/factory.png"
+  },
+  {
+    "type": "FactoryIncrease",
+    "affects": "Fabrica",
+    "name": "Increment fabrica 3",
+    "cost": 2000000,
+    "bonus": 2.0,
+    "threshold": 1000,
+    "image": "resources/factory.png"
+  },
+  {
+    "type": "FactoryIncrease",
+    "affects": "Fabrica",
+    "name": "Increment fabrica 4",
+    "cost": 2500000,
+    "bonus": 2.0,
+    "threshold": 50000,
+    "image": "resources/factory.png"
+  },
+  {
+    "type": "FactoryIncrease",
+    "affects": "Fabrica",
+    "name": "Increment fabrica 5",
+    "cost": 3000000,
+    "bonus": 2.0,
+    "threshold": 500000,
+    "image": "resources/factory.png"
+  },
+  {
+    "type": "OLIncrease",
+    "affects": "Oompa Loompa",
+    "name": "Increment Loompas 1",
+    "cost": 4000000,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/wonka.png"
+  },
+  {
+    "type": "OLIncrease",
+    "affects": "Oompa Loompa",
+    "name": "Increment Loompas 2",
+    "cost": 5000000,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/wonka.png"
+  },
+  {
+    "type": "OLIncrease",
+    "affects": "Oompa Loompa",
+    "name": "Increment Loompas 3",
+    "cost": 6000000,
+    "bonus": 2.0,
+    "threshold": 1000,
+    "image": "resources/wonka.png"
+  },
+  {
+    "type": "OLIncrease",
+    "affects": "Oompa Loompa",
+    "name": "Increment Loompas 4",
+    "cost": 7000000,
+    "bonus": 2.0,
+    "threshold": 50000,
+    "image": "resources/wonka.png"
+  },
+  {
+    "type": "OLIncrease",
+    "affects": "Oompa Loompa",
+    "name": "Increment Loompas 5",
+    "cost": 8000000,
+    "bonus": 2.0,
+    "threshold": 500000,
+    "image": "resources/wonka.png"
+  },
+  {
+    "type": "CPIncrease",
+    "affects": "Central Perk",
+    "name": "Increment Central Perk 1",
+    "cost": 6000000,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/centralperk.png"
+  },
+  {
+    "type": "CPIncrease",
+    "affects": "Central Perk",
+    "name": "Increment Central Perk 2",
+    "cost": 7500000,
+    "bonus": 2.0,
+    "threshold": 300,
+    "image": "resources/centralperk.png"
+  },
+  {
+    "type": "CPIncrease",
+    "affects": "Central Perk",
+    "name": "Increment Central Perk 3",
+    "cost": 9000000,
+    "bonus": 2.0,
+    "threshold": 1000,
+    "image": "resources/centralperk.png"
+  },
+  {
+    "type": "CPIncrease",
+    "affects": "Central Perk",
+    "name": "Increment Central Perk 4",
+    "cost": 10500000,
+    "bonus": 2.0,
+    "threshold": 50000,
+    "image": "resources/centralperk.png"
+  },
+  {
+    "type": "CPIncrease",
+    "affects": "Central Perk",
+    "name": "Increment Central Perk 5",
+    "cost": 12000000,
+    "bonus": 2.0,
+    "threshold": 500000,
+    "image": "resources/centralperk.png"
+  }
+]

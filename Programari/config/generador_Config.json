@@ -1,0 +1,66 @@
+[
+  {
+    "generatorsType": "Barista",
+    "numGenerator" : 0,
+    "baseCost": 5.0,
+    "incremental": 1.07,
+    "production": 4.0,
+    "image": "resources/barista.png"
+  },
+  {
+    "generatorsType": "Cascada de cafè",
+    "numGenerator" : 0,
+    "baseCost": 100.0,
+    "incremental": 1.15,
+    "production": 10.0,
+    "image": "resources/cascade.jpg"
+  },
+  {
+    "generatorsType": "Cafetera",
+    "numGenerator" : 0,
+    "baseCost": 1000.0,
+    "incremental": 1.25,
+    "production": 20.0,
+    "image": "resources/coffeemachine.png"
+  },
+  {
+    "generatorsType": "George Clooney",
+    "numGenerator" : 0,
+    "baseCost": 10000.0,
+    "incremental": 1.33,
+    "production": 50.0,
+    "image": "resources/george-clooney.jpg"
+  },
+  {
+    "generatorsType": "Granja",
+    "numGenerator" : 0,
+    "baseCost": 100000.0,
+    "incremental": 1.45,
+    "production": 200.0,
+    "image": "resources/farmer.png"
+  },
+  {
+    "generatorsType": "Fabrica",
+    "numGenerator" : 0,
+    "baseCost": 500000.0,
+    "incremental": 1.6,
+    "production": 550.0,
+    "image": "resources/factory.png"
+  },
+  {
+    "generatorsType": "Oompa Loompa",
+    "numGenerator" : 0,
+    "baseCost": 1000000.0,
+    "incremental": 1.7,
+    "production": 3000.0,
+    "image": "resources/wonka.png"
+  },
+  {
+    "generatorsType": "Central Perk",
+    "numGenerator" : 0,
+    "baseCost": 3000000.0,
+    "incremental": 1.9,
+    "production": 10000.0,
+    "image": "resources/centralperk.png"
+  }
+]
