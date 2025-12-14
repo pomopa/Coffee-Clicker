@@ -25,6 +25,7 @@ Coffee Clicker demonstrates concepts of object-oriented programming, configurati
    - [newGame_Config.json](#newgame_configjson)
    - [generador_Config.json](#generador_configjson)
    - [empowerer_Config.json](#empowerer_configjson)
+5. [Documentation](#-documentation)
 
 
 ### 1. Download & Installation
@@ -152,3 +153,12 @@ This file contains the initial configuration for the different types of empowere
 - **bonus:** Represents the value between 0 and 1 that benefits the generator in its corresponding field.
 - 
 The values of each field must be modified according to the game's specifications and the preferred configuration for each game.
+
+---
+
+## 📖 Documentation
+
+The full Java API documentation for this project is available online:  
+[Coffee Clicker JavaDoc](https://pomopa.github.io/Coffee-Clicker/)
+
+It includes descriptions for each class, method, and utility in the project.
