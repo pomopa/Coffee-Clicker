@@ -64,7 +64,7 @@ To configure the database connection, follow these steps:
    - "**host**": Specifies the location of the database server.
    - "**port**": Corresponds to the port number in which the server is listening to connections.
    - "**user**": Specifies the username to autenticate in the database.
-   - *password**": Insert the password associated with the username to authenticate the connection.
+   - **password**": Insert the password associated with the username to authenticate the connection.
    - "**database**": Specify the name of the database to which the program will be connected.
 
 4. Save the changes to the file config.json.
